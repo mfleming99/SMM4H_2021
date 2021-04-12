@@ -3,5 +3,3 @@
 ## Installation
 
 Run `python setup.py install`
-
-+
