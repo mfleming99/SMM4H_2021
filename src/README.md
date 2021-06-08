@@ -1,7 +1,5 @@
 # Source Code
 
+### Train Final Models
 
-### Submissions
-1. time python make_submission_file.py --model-path models/task6/9452_final_model-name\=DistilBertForSequenceClassification/ --test-file ../data/2021/Subtask\ 6/test_tweets.tsv --output-file submissions/task6/trainall_cold --task 6
-
-1. time python make_submission_file.py --model-path models/task5/7174_final_model-name=DistilBertForSequenceClassification --test-file ../data/2021/Subtask\ 5/test.tsv --output-file submissions/task5/trainall_cold --task 5
+To train the models used to make the final submissions, run `./experiment-scripts/train_task5_final.sh` and `./experiment-scripts/train_task6_final.sh`. The models will be saved under `/models` and the submissions will be saved under `/submissions`
